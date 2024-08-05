@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.feedback{
+ display: flex;
+ flex-direction: column;
+ gap: 120px;
+ margin-top: 20cm;
+ align-items: center;
+ .feedback-text{
+    display: flex;
+    justify-content: space-evenly;
+    .feedback-text-first{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-left: 100px;
+        .noma{
+            width: 44%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: start;
+            h3{
+                font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+            }
+            h1{
+                font-family: Roboto;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.1px;
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+            }
+        }
+       
+    }
+    .feedback-text-second{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .fts{
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            height: 56px;
+            gap: 20px;
+            h2{
+                font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+color: #E1FFA0;
+            }
+            h3{
+                font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+text-align: left;
+color: #FFFFFF;
+            }
+        }
+    }
+ }
+ .feedback-cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    .feedback-card1{
+        width: 380px;
+height: 430px;
+border-radius: 4px ;
+background-color: #164038;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 20px;
+img{
+    width: 64px;
+height: 64px;
+}
+.feedback-card1-text{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    h3{
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+color: #FFFFFF;        
+    }
+    h1{
+        font-family: Roboto;
+font-size: 32px;
+font-weight: 400;
+line-height: 33.6px;
+text-align: left;
+color: #FFFFFF;
+    }
+    p{
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20.8px;
+        text-align: left;
+color:#FFFFFF ;           
+    }
+}
+    }
+ }
+}
